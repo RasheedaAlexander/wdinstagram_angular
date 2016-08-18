@@ -10,7 +10,7 @@ Build a simple angular app that can preform CRUD on dummy data. The data should 
 
 ## Part 2 CRUD with API
 
-Clone the [WDInstagram api](https://github.com/ga-wdi-exercises/wdinstagram_rails_api) - you don't need to fork as you won't be modifying this
+Clone the [WDInstagram api](https://github.com/ga-wdi-exercises/entry_rails_api) - you don't need to fork as you won't be modifying this
 
 ```shell
 $ bundle install

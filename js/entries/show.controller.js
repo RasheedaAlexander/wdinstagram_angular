@@ -6,7 +6,7 @@
   //declare a dependency on the ngResource module ($resource is a factory that lets you interact with RESTful backends easily)
   .module("entry")
   .controller("EntryShowController", [
-    "EntriesFactory",
+    "EntryFactory",
     "$stateParams",
     EntryShowControllerFunction
   ]);

@@ -12,6 +12,6 @@
 
   function EntryIndexControllerFunction(EntryFactory) {
 // Whenever `.entries` is called on our ViewModel, it returns the response from `.query()`
-  this.entry = EntryFactory.query();
+  this.entries = EntryFactory.query();
 }
 }());
