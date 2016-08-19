@@ -1,0 +1,10 @@
+<!-- js/entries/new.html -->
+
+<h2>Create Entry</h2>
+
+<form>
+  <input placeholder="Author name" data-ng-model="EntryNewViewModel.entry.author" />
+  <input placeholder="Photo URL" data-ng-model="EntryNewViewModel.entry.photo_url" />
+  <textarea placeholder="Entry content" data-ng-model="EntryNewViewModel.entry.body"></textarea>
+  <button type="button" data-ng-click="EntryNewViewModel.create()">Create</button>
+</form>

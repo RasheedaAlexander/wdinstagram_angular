@@ -1,8 +1,8 @@
 "use strict";
 
 (function(){
-  angular.module("entries", [
-    "entry",
-    "ngResource",
+  angular
+  .module("entries", [
+    "ngResource"
   ]);
 }());

@@ -21,11 +21,23 @@
       controller: "EntryIndexController",
       controllerAs: "EntryIndexViewModel"
     })
+  .state("entryNew", {
+    url: "/entries/new",
+    templateUrl: "js/entries/new.html",
+    controller: "EntryNewController",
+    controllerAs: "EntryNewViewModel"
+  })
     .state("entryShow", {
       url: "/entries/:id",
       templateUrl: "js/entries/show.html",
       controller: "EntryShowController",
-      controllerAs: "entryShowViewModel"
+      controllerAs: "EntryShowViewModel"
+    })
+    .state("entryEdit", {
+      url: "/entries/:id/edit",
+      templateUrl: "js/entries/edit.html",
+      controller: "EntryEditController",
+      controllerAs: "EntryEditViewModel"
     });
   }
 }());
